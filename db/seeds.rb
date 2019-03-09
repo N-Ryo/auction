@@ -35,3 +35,13 @@ item3 = Item.new(
   image_url: "http://image.rakuten.co.jp/atmos-girls/cabinet/reebok/v47514-1.jpg"
 )
 item3.save
+
+Item.create(
+  name: "エアジョーダン",
+  description: "マジでやばいシューズ",
+  price: 20000,
+  seller: "Ryo",
+  email: "bar@example.com",
+  image_url: "https://c.static-nike.com/a/images/f_auto,b_rgb:f5f5f5,w_440/n49zwcofriuuhhc0sot6/%E3%82%A8%E3%82%A2-%E3%82%B8%E3%83%A7%E3%83%BC%E3%83%80%E3%83%B3-1-high-%E3%82%B8%E3%83%83%E3%83%97-%E3%83%A1%E3%83%B3%E3%82%BA%E3%82%B7%E3%83%A5%E3%83%BC%E3%82%BA-mrt8HN.jpg"
+
+)
